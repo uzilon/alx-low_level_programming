@@ -1,0 +1,16 @@
+
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ *
+ * main - entry point 
+ *
+ * Return:always return o
+ *
+ */
+int main (void)
+{
+	return (0);
+}
