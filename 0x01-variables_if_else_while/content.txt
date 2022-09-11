@@ -4,13 +4,12 @@
 #include <stdio.h>
 
 /**
- *
  * main - entry point 
  *
  * Return:always return o
  *
  */
-int main (void)
+int main(void)
 {
 	return (0);
 }
