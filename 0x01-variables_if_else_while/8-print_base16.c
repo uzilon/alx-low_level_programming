@@ -16,7 +16,7 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	a = 'A';
+	a = 'a';
 	for (i = 0; i < 6; i++)
 	{
 		putchar(a);
