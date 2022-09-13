@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	unsigned char a = 0;
+	unsigned char a = '0';
 	int i;
 
 	for (i = 0; i < 10; i++)
@@ -16,10 +16,10 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	a = '1';
+	a = 'A';
 	for (i = 0; i < 6; i++)
 	{
-		putchar('0' + a);
+		putchar(a);
 		a++;
 	}
 	putchar('\n');
