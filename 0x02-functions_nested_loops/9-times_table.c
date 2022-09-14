@@ -4,10 +4,11 @@
  * times_table - times table function
  *
  */
+
 void times_table(void)
 {
 	int i;
-	int j:
+	int j;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -24,16 +25,18 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				-Putchar(prod + '0');
+				_putchar(prod + '0');
 			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
-				-Putchar(prod / 10 + '0');
-				-Putchar(prod % 10 + '0');
-			)
+				_putchar(prod / 10 + '0');
+				_putchar(prod % 10 + '0');
+			}
 		}
 	}
 	_putchar('\n');
 }
+
+
