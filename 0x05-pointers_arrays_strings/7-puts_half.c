@@ -1,5 +1,5 @@
 #include "main.h"
-#include "2-strlen.c"
+#include <string.h>
 
 /**
  * puts_half - puts half of int
@@ -17,7 +17,7 @@ void puts_half(char *str)
 
 	if (i % 2 == 1)
 	{
-		j = i / 2 + 1
+		j = i / 2 + 1;
 	}
 	else
 	{
