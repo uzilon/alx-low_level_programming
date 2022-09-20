@@ -17,6 +17,8 @@ void rev_string(char *s);
 
 void puts2(char *str);
 
+void puts-half(char *str);
+
 
 
 #endif
