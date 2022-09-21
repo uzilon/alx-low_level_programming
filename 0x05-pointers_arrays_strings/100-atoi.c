@@ -26,7 +26,7 @@ int _atoi(char *s)
 			result -= (s[i] - '0');
 			boolean = 1;
 		}
-		else (boolean == 1)
+		else if (boolean == 1)
 			break;
 		i++;
 	}
