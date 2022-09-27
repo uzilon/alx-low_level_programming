@@ -1,21 +1,18 @@
-#include "main.h"
 /**
- * _print_chessboard - board to print
- * @a: prints things
- * Return: returns crap
+ * _memcpy - copies from source to dest values in arrayt
+ * @dest: destination to copy to
+ * @src: source to copy from
+ * @n: n amount of times
+ * Return: return the string value
  */
 
-void print_chessboard(char (*a)[8])
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	int i;
-	int j;
+	unsigned int i;
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < 8; j++)
-		{
-			_putchar(a[i][j]);
-		}
-		_putchar('\n');
+		dest[i] = src[i];
 	}
+	return (dest);
 }

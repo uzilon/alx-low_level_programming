@@ -1,21 +1,19 @@
 #include "main.h"
 /**
- * _print_chessboard - board to print
- * @a: prints things
- * Return: returns crap
+ * _memset - sets memory to array
+ * @s: array to set
+ * @b: value to set it as
+ * @n: n amount of times
+ * Return: char value of s
  */
 
-void print_chessboard(char (*a)[8])
+char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
-	int j;
+	unsigned int i;
 
-	for (i = 0; i < 8; i++)
+	for (i = 0; i < n; i++)
 	{
-		for (j = 0; j < 8; j++)
-		{
-			_putchar(a[i][j]);
-		}
-		_putchar('\n');
+		s[i] = b;
 	}
+	return (s);
 }
