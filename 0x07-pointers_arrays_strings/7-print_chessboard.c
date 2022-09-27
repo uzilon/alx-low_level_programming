@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_chessboard - board to print
+ * print_chessboard - board to print
  * @a: prints things
  * Return: returns crap
  */
