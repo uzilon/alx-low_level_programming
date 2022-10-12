@@ -1,5 +1,7 @@
-#ifndef function_pointer_h
-#define function_pointer_h
+#ifndef MAIN
+#define MAIN
+
+#include <stdio.h>
 
 int _putchar(char c); 
 void print_name(char *name, void (*f)(char *));
